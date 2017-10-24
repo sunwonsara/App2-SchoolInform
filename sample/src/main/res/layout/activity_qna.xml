@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+
+    tools:context="com.example.ip.myapplication_2.Project1">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/but_1"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/q1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/but_11"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:background="@drawable/a"
+                >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/but_3"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/q3" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/but_33"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:background="@drawable/a3"
+                >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/but_4"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/q4" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/but_44"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:background="@drawable/a4"
+                >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/but_5"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/q5" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/but_55"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:background="@drawable/a5"
+                >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/but_6"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/q6" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/but_66"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:background="@drawable/a6"
+                >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/but_7"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/q7" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/but_77"
+                android:layout_width="315dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:background="@drawable/a7"
+                >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="263dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/callbut" />
+</LinearLayout>

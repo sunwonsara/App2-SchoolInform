@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center_vertical"
+tools:context="com.example.sun_sun.mirimdictionary.MainActivity">
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"></android.support.v4.view.ViewPager>
+
+<!--    <ImageView
+        android:layout_marginTop="-80dp"
+        android:src="@drawable/school"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />-->
+
+<LinearLayout
+    android:layout_marginTop="-180dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/school"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/school_story" />
+
+    <ImageButton
+        android:id="@+id/major"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/major" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-200dp"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/q_a"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/q_a" />
+
+    <ImageButton
+        android:id="@+id/school_fair"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/school_fair" />
+
+</LinearLayout>
+
+</LinearLayout>

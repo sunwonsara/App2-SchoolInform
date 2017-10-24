@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "420309840806",
+    "firebase_url": "https://mirimdictionary.firebaseio.com",
+    "project_id": "mirimdictionary",
+    "storage_bucket": "mirimdictionary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420309840806:android:a3f5a0236b51a7c4",
+        "android_client_info": {
+          "package_name": "khjin001010.kr.hs.emirim.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420309840806-3mb6k5s0o4cfrf6mkjd8s600qa1355es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSEAtD0lHQklIbC5Ar8X6OwrIMQx7Ibwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420309840806:android:cca808a83dae674a",
+        "android_client_info": {
+          "package_name": "hyepago.kr.hs.emirim.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420309840806-4v09mkghpr9jl87retmk7veokgpgm4e4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hyepago.kr.hs.emirim.myapplication",
+            "certificate_hash": "a8d93c84e7bdecfdfad23720cb65146161ba2c0a"
+          }
+        },
+        {
+          "client_id": "420309840806-3mb6k5s0o4cfrf6mkjd8s600qa1355es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSEAtD0lHQklIbC5Ar8X6OwrIMQx7Ibwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420309840806-3mb6k5s0o4cfrf6mkjd8s600qa1355es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420309840806:android:0d679ae25912a26c",
+        "android_client_info": {
+          "package_name": "com.prolificinteractive.materialcalendarview.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420309840806-3mb6k5s0o4cfrf6mkjd8s600qa1355es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSEAtD0lHQklIbC5Ar8X6OwrIMQx7Ibwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
